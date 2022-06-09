@@ -7,7 +7,7 @@
 /*============================ SECTION 1 START ==============================*/
 /*back ground image*/
 .bg {
-    background-image: url("/images/service-now-slide.jpg");
+    background-image: url("images/1.png");
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -50,29 +50,33 @@
 }
 
 .image1 {
-    margin-left: 80px;
+    height: 80%;
+    width: 80%;
 }
 
 #section1button {
     margin-left: auto;
-    margin-right: 75px;
+    font-weight: bold;
 }
 
 #section1button:hover {
     background-color: #000000;
 }
-
+#section1button2
+{
+    font-weight: bold;
+}
 #section1button2:hover {
     background-color: #000000;
 }
 
-@media screen and (max-width:570px) {
+@media screen and (max-width:992px) {
     .image1 {
-        margin-left: 30px;
+        margin-left: 0;
     }
 
     #section1button {
-        margin-right: 30px;
+        margin-right: 0;
     }
 
     .section1paragraph {
@@ -138,7 +142,7 @@ form {
 @media screen and (max-width:992px) {
     form {
         margin-top: 0;
-        width: 500px;
+        width: 700px;
         height: auto;
         margin-right: auto;
     }
@@ -279,7 +283,10 @@ form button {
     font-size: 16px;
 
 }
-
+#section3button
+{
+    font-weight: bold;
+}
 #section3button:hover {
     background-color: #000000;
 }
@@ -309,6 +316,10 @@ form button {
 
     #h4-3 {
         padding-right: 0;
+    }
+    #section3paragraph
+    {
+        font-size: 20px;
     }
 
 }
@@ -471,7 +482,7 @@ div.col-md-3 {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    color: #6943a7;
+    color: #341566;
 }
 .section5images
 {
@@ -483,7 +494,7 @@ div.col-md-3 {
 }
 #section5paragraph3 {
     font-size: 20px;
-    color: #6943a7;
+    color: #341566;
 }
 
 #section5h1 {
@@ -498,7 +509,10 @@ div.col-md-3 {
     border-right: 1px solid #2c1e5091;
 }
 
-
+#section5img1 {
+    width: 500px;
+    height: 300px;
+}
 @media screen and (max-width: 992px) {
     #section5img1 {
         width: 500px;
@@ -699,8 +713,8 @@ h6 {
     color: #21104f;
     text-align: center;
     font-size: 30px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:375px) {
@@ -762,7 +776,7 @@ h6 {
     color: #fff;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 #section8h4tag {
@@ -825,7 +839,7 @@ h6 {
 @media screen and (max-width:992px) {
     #section8form {
         margin-top: 0;
-        width: 500px;
+        width: 700px;
         height: auto;
         margin-right: auto;
     }
@@ -869,6 +883,11 @@ form textarea {
 
 /* =============================== SECTION 8 END ============================= */
 /* =============================== SECTION 9 START =========================== */
+.section9footer
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
 .center {
     display: flex;
     justify-content: center;
@@ -901,12 +920,12 @@ form textarea {
 #section9paragraph {
     color: #21104f;
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 #section9paragraph2 {
     color: #6943a7;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 @media screen and (max-width:992px) {
@@ -915,8 +934,34 @@ form textarea {
         padding-right: 10px;
         padding-left: 10px;
     }
+    .section9footer
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #section9paragraph {
+        color: #21104f;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    #section9paragraph2 {
+        color: #6943a7;
+        font-size: 16px;
+    }
 }
-
+@media screen and (max-width:375px) {
+    #section9paragraph2
+    {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .section9footer
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 
 /* ============== footer icon ==================== */
 .footer-social-icon {
